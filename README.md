@@ -1,6 +1,5 @@
 # Powershell-Script
 Handpicked removal of a user profile and all data.
-----------------Start of script---------------------------------
 ````
 $numberOfRuns = 2
 for ($i = 1; $i -le $numberOfRuns; $i++) {
@@ -45,4 +44,3 @@ foreach ($user in $usersToDelete) {
 }
 }
 `````
-----------------------END OF SCRIPT----------------------------------------
